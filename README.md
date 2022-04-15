@@ -5,7 +5,7 @@
 > A portfolio to showcase my work. Developed using a Mobile-First strategy.
 
 
-![screenshot](images/screenshot.png)
+![screenshot](./screenshot.png)
 
 ## Authors
 
