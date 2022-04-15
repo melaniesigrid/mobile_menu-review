@@ -51,6 +51,26 @@ header {
   color: white;
 }
 
+#mobile-menu {
+  background-color: white;
+  display: none;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: top 1s ease;
+}
+
+.closeMenu {
+  color: black;
+}
+
 main {
   display: flex;
   flex-direction: column;
@@ -425,6 +445,10 @@ textarea {
   }
 
   .mobile-icon {
+    display: none;
+  }
+
+  .mobile-menu {
     display: none;
   }
 
