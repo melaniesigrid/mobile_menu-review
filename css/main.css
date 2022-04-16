@@ -28,7 +28,7 @@ header {
   align-items: center;
   padding: 15px;
   background-color: #3c3a39;
-  color: #FFF5E1;
+  color: #fff5e1;
 }
 
 #desktop-nav,
@@ -53,13 +53,13 @@ header {
 .menu-bars i {
   width: 18px;
   height: 12px;
-  color: #FFF5E1;
+  color: #fff5e1;
 }
 
 #mobile-menu {
   font-weight: bold;
   background-color: #3c3a39;
-  color: #FFF5E1;
+  color: #fff5e1;
   display: none;
   height: 100vh;
   position: fixed;
@@ -70,13 +70,13 @@ header {
   z-index: 10;
   flex-direction: column;
   justify-content: center;
-  align-items: left;
+  align-items: center;
   text-align: left;
   transition: top 1s ease;
 }
 
 .closeMenu {
-  color: #FFF5E1;
+  color: #fff5e1;
   position: fixed;
   top: 2rem;
   right: 2rem;
@@ -266,7 +266,7 @@ li {
   font-size: 22px;
   line-height: 43px;
   text-align: center;
-  color: #FFF5E1;
+  color: #fff5e1;
   padding: 5px;
 }
 
@@ -460,6 +460,10 @@ textarea {
   }
 
   .mobile-menu {
+    display: none;
+  }
+
+  .close-menu {
     display: none;
   }
 
