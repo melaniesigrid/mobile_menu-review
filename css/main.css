@@ -14,6 +14,10 @@ a {
   text-decoration: none;
 }
 
+a:visited {
+  color: inherit;
+}
+
 hr {
   width: 80vw;
 }
@@ -24,7 +28,7 @@ header {
   align-items: center;
   padding: 15px;
   background-color: #3c3a39;
-  color: white;
+  color: #FFF5E1;
 }
 
 #desktop-nav,
@@ -49,11 +53,13 @@ header {
 .menu-bars i {
   width: 18px;
   height: 12px;
-  color: white;
+  color: #FFF5E1;
 }
 
 #mobile-menu {
-  background-color: white;
+  font-weight: bold;
+  background-color: #3c3a39;
+  color: #FFF5E1;
   display: none;
   height: 100vh;
   position: fixed;
@@ -64,12 +70,16 @@ header {
   z-index: 10;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: left;
+  text-align: left;
   transition: top 1s ease;
 }
 
 .closeMenu {
-  color: black;
+  color: #FFF5E1;
+  position: fixed;
+  top: 2rem;
+  right: 2rem;
 }
 
 main {
@@ -256,7 +266,7 @@ li {
   font-size: 22px;
   line-height: 43px;
   text-align: center;
-  color: #fff;
+  color: #FFF5E1;
   padding: 5px;
 }
 
